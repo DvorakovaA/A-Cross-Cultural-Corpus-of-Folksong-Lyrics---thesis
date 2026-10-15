@@ -1,0 +1,97 @@
+Model: Linear_SVM
+
+Fold 1:
+                         precision    recall  f1-score   support
+
+     business_and_civil       0.12      0.26      0.17        77
+               calendar       0.24      0.32      0.27        62
+                 carols       0.00      0.00      0.00        10
+               children       0.00      0.00      0.00        18
+entertainment_and_dance       0.18      0.40      0.25        83
+                   love       0.09      0.07      0.08        74
+               military       0.00      0.00      0.00        16
+            social_life       0.27      0.12      0.16        26
+                wedding       0.09      0.02      0.04        42
+           young_people       0.23      0.08      0.12       158
+
+               accuracy                           0.17       566
+              macro avg       0.12      0.13      0.11       566
+           weighted avg       0.16      0.17      0.14       566
+
+
+Fold 2:
+                         precision    recall  f1-score   support
+
+     business_and_civil       0.20      0.48      0.28        77
+               calendar       0.29      0.37      0.32        62
+                 carols       0.00      0.00      0.00        10
+               children       0.00      0.00      0.00        17
+entertainment_and_dance       0.18      0.35      0.24        83
+                   love       0.10      0.01      0.02        74
+               military       0.00      0.00      0.00        16
+            social_life       0.67      0.08      0.14        26
+                wedding       0.00      0.00      0.00        42
+           young_people       0.28      0.22      0.25       159
+
+               accuracy                           0.22       566
+              macro avg       0.17      0.15      0.13       566
+           weighted avg       0.21      0.22      0.19       566
+
+
+Fold 3:
+                         precision    recall  f1-score   support
+
+     business_and_civil       0.15      0.29      0.20        77
+               calendar       0.22      0.27      0.24        62
+                 carols       0.00      0.00      0.00        10
+               children       0.00      0.00      0.00        17
+entertainment_and_dance       0.18      0.40      0.25        83
+                   love       0.10      0.07      0.08        74
+               military       0.00      0.00      0.00        16
+            social_life       0.50      0.12      0.19        26
+                wedding       0.00      0.00      0.00        42
+           young_people       0.34      0.23      0.27       159
+
+               accuracy                           0.20       566
+              macro avg       0.15      0.14      0.12       566
+           weighted avg       0.20      0.20      0.19       566
+
+
+Fold 4:
+                         precision    recall  f1-score   support
+
+     business_and_civil       0.20      0.27      0.23        77
+               calendar       0.26      0.27      0.27        62
+                 carols       0.00      0.00      0.00         9
+               children       0.00      0.00      0.00        18
+entertainment_and_dance       0.14      0.33      0.19        82
+                   love       0.14      0.20      0.17        74
+               military       0.00      0.00      0.00        17
+            social_life       0.60      0.23      0.33        26
+                wedding       0.00      0.00      0.00        42
+           young_people       0.30      0.15      0.20       159
+
+               accuracy                           0.19       566
+              macro avg       0.16      0.15      0.14       566
+           weighted avg       0.20      0.19      0.18       566
+
+
+Fold 5:
+                         precision    recall  f1-score   support
+
+     business_and_civil       0.15      0.31      0.20        77
+               calendar       0.27      0.31      0.29        62
+                 carols       0.00      0.00      0.00        10
+               children       0.00      0.00      0.00        18
+entertainment_and_dance       0.16      0.28      0.20        83
+                   love       0.00      0.00      0.00        73
+               military       0.00      0.00      0.00        16
+            social_life       0.14      0.08      0.10        25
+                wedding       0.00      0.00      0.00        42
+           young_people       0.36      0.36      0.36       159
+
+               accuracy                           0.22       565
+              macro avg       0.11      0.13      0.11       565
+           weighted avg       0.18      0.22      0.19       565
+
+

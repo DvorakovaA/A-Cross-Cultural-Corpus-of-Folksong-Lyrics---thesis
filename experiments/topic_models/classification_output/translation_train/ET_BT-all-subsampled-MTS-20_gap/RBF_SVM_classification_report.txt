@@ -1,0 +1,92 @@
+Model: RBF_SVM
+
+Fold 1:
+                                  precision    recall  f1-score   support
+
+                        children       0.22      0.22      0.22        37
+                   entertainment       0.26      0.09      0.14       107
+              home_and_childhood       0.06      0.66      0.12        41
+                        marriage       0.22      0.04      0.07        46
+                          nature       0.19      0.24      0.21        76
+songs about social relationships       0.92      0.15      0.26        80
+                            work       0.89      0.10      0.18        79
+                           worry       0.25      0.05      0.08        41
+                      youth_life       0.38      0.07      0.12       143
+
+                        accuracy                           0.15       650
+                       macro avg       0.38      0.18      0.16       650
+                    weighted avg       0.42      0.15      0.16       650
+
+
+Fold 2:
+                                  precision    recall  f1-score   support
+
+                        children       0.23      0.17      0.19        36
+                   entertainment       0.20      0.05      0.08       107
+              home_and_childhood       0.09      0.95      0.16        41
+                        marriage       0.31      0.09      0.13        47
+                          nature       0.28      0.28      0.28        75
+songs about social relationships       0.33      0.04      0.07        80
+                            work       1.00      0.09      0.16        79
+                           worry       0.44      0.10      0.16        42
+                      youth_life       0.49      0.14      0.22       143
+
+                        accuracy                           0.17       650
+                       macro avg       0.38      0.21      0.16       650
+                    weighted avg       0.40      0.17      0.16       650
+
+
+Fold 3:
+                                  precision    recall  f1-score   support
+
+                        children       0.24      0.17      0.20        36
+                   entertainment       0.21      0.07      0.11       107
+              home_and_childhood       0.08      0.79      0.14        42
+                        marriage       0.37      0.15      0.22        46
+                          nature       0.23      0.25      0.24        75
+songs about social relationships       0.86      0.07      0.14        80
+                            work       0.50      0.05      0.09        80
+                           worry       0.33      0.10      0.15        41
+                      youth_life       0.48      0.08      0.14       143
+
+                        accuracy                           0.15       650
+                       macro avg       0.37      0.19      0.16       650
+                    weighted avg       0.40      0.15      0.15       650
+
+
+Fold 4:
+                                  precision    recall  f1-score   support
+
+                        children       0.27      0.22      0.24        36
+                   entertainment       0.12      0.02      0.03       106
+              home_and_childhood       0.09      0.90      0.16        42
+                        marriage       0.40      0.17      0.24        46
+                          nature       0.29      0.33      0.31        76
+songs about social relationships       0.56      0.06      0.11        80
+                            work       0.15      0.05      0.07        80
+                           worry       0.12      0.05      0.07        41
+                      youth_life       0.75      0.10      0.18       143
+
+                        accuracy                           0.16       650
+                       macro avg       0.30      0.21      0.16       650
+                    weighted avg       0.36      0.16      0.15       650
+
+
+Fold 5:
+                                  precision    recall  f1-score   support
+
+                        children       0.16      0.17      0.16        36
+                   entertainment       0.18      0.07      0.10       106
+              home_and_childhood       0.08      0.79      0.14        42
+                        marriage       0.75      0.13      0.22        46
+                          nature       0.27      0.25      0.26        76
+songs about social relationships       0.78      0.09      0.16        80
+                            work       1.00      0.06      0.12        80
+                           worry       0.21      0.10      0.13        41
+                      youth_life       0.56      0.13      0.21       143
+
+                        accuracy                           0.16       650
+                       macro avg       0.44      0.20      0.17       650
+                    weighted avg       0.48      0.16      0.17       650
+
+

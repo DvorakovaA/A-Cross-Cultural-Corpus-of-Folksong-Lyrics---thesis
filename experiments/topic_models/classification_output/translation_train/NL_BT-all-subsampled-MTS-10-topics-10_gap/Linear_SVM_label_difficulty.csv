@@ -1,0 +1,11 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+Linear_SVM,anti-marriage,9,0.0,0.0,0.0,1.0,wedding,0.6667
+Linear_SVM,birthday,15,0.0,0.0,0.0,1.0,wedding,0.7333
+Linear_SVM,christmas,5,0.0,0.0,0.0,1.0,children,0.8
+Linear_SVM,lullaby,8,0.0,0.0,0.0,1.0,children,0.5
+Linear_SVM,st_nicholas,10,0.0,0.0,0.0,1.0,children,1.0
+Linear_SVM,work_sea,37,0.0,0.0,0.0,1.0,children,0.4865
+Linear_SVM,work_soldier,16,0.0,0.0,0.0,1.0,children,0.625
+Linear_SVM,work,27,0.129,0.1481,0.1379,0.8519,children,0.5926
+Linear_SVM,wedding,97,0.3426,0.7629,0.4728,0.2371,children,0.2371
+Linear_SVM,children,298,0.6691,0.6174,0.6422,0.3826,wedding,0.3121
