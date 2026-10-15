@@ -1,0 +1,11 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+RBF_SVM,Lament_eosayong,58,0.2222,0.0345,0.0597,0.9655,Entertainment_children,0.6724
+RBF_SVM,Entertainment_children,45,0.0385,0.7333,0.0732,0.2667,Work_agricultural,0.0667
+RBF_SVM,Work_construction,92,0.0722,0.1522,0.0979,0.8478,Entertainment_children,0.5761
+RBF_SVM,etc_minstrel,49,0.0833,0.1224,0.0992,0.8776,Entertainment_children,0.4694
+RBF_SVM,Lament_lament,116,0.2,0.0776,0.1118,0.9224,Entertainment_children,0.6293
+RBF_SVM,Ritual_funeral,118,0.2857,0.1356,0.1839,0.8644,Entertainment_children,0.5847
+RBF_SVM,Work_fishing,64,0.2778,0.1562,0.2,0.8438,Entertainment_children,0.5781
+RBF_SVM,Work_artisan,145,0.4167,0.1724,0.2439,0.8276,Entertainment_children,0.4897
+RBF_SVM,Work_agricultural,732,0.7852,0.1598,0.2656,0.8402,Entertainment_children,0.5314
+RBF_SVM,Lullaby_lullaby,133,0.6351,0.3534,0.4541,0.6466,Entertainment_children,0.5263

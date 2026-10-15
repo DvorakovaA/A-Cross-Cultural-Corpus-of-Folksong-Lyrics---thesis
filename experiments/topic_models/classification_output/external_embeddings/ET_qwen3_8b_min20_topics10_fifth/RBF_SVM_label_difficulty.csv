@@ -1,0 +1,10 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+RBF_SVM,entertainment,106,0.0,0.0,0.0,1.0,songs about social relationships,1.0
+RBF_SVM,home_and_childhood,42,0.0,0.0,0.0,1.0,songs about social relationships,0.9524
+RBF_SVM,marriage,46,0.0,0.0,0.0,1.0,songs about social relationships,1.0
+RBF_SVM,nature,76,0.0,0.0,0.0,1.0,songs about social relationships,0.9342
+RBF_SVM,worry,41,0.0,0.0,0.0,1.0,songs about social relationships,0.9756
+RBF_SVM,work,80,0.0,0.0,0.0,1.0,songs about social relationships,0.9875
+RBF_SVM,youth_life,143,0.375,0.021,0.0397,0.979,songs about social relationships,0.972
+RBF_SVM,children,36,0.4286,0.0833,0.1395,0.9167,songs about social relationships,0.9167
+RBF_SVM,songs about social relationships,80,0.1262,1.0,0.2241,0.0,—,0.0
