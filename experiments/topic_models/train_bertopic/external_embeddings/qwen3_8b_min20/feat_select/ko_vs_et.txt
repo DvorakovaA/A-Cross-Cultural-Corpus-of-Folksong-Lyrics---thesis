@@ -1,0 +1,47 @@
+------------------------------
+L1 FEATURE SELECTION: 'ko'  vs  'et'
+------------------------------
+Top-K requested : 10
+Best C selected : 10.0
+CV AUC (5-fold) : -inf
+
+Top 10 discriminative topics:
+------------------------------
+
+Rank 1: topic_8  (8_buns_saber_grove_green green)
+  L1 coefficient : +0.155322  -> favours: et
+  Mean prob in 'ko' : 0.011669 ± 0.105083
+  Mean prob in 'et' : 0.035080 ± 0.181540
+  Mean diff (b-a)          : +0.023411
+
+Rank 2: topic_1  (1_forest_rise_barn_old)
+  L1 coefficient : +0.105233  -> favours: et
+  Mean prob in 'ko' : 0.000000 ± 0.000000
+  Mean prob in 'et' : 0.000615 ± 0.024799
+  Mean diff (b-a)          : +0.000615
+
+Rank 3: topic_7  (7_trouble_stole_fastened_away away)
+  L1 coefficient : +0.098933  -> favours: et
+  Mean prob in 'ko' : 0.002459 ± 0.048776
+  Mean prob in 'et' : 0.009870 ± 0.096844
+  Mean diff (b-a)          : +0.007410
+
+Rank 4: topic_5  (5_ra_pepek_woe_dare)
+  L1 coefficient : -0.067679  -> favours: ko
+  Mean prob in 'ko' : 0.009922 ± 0.097432
+  Mean prob in 'et' : 0.004615 ± 0.067780
+  Mean diff (b-a)          : -0.005307
+
+Rank 5: topic_9  (9_want dont_dont want_neighing_ride away)
+  L1 coefficient : +0.035130  -> favours: et
+  Mean prob in 'ko' : 0.018018 ± 0.129529
+  Mean prob in 'et' : 0.022635 ± 0.146606
+  Mean diff (b-a)          : +0.004616
+
+Rank 6: topic_6  (6_goslings_gate_game_strawberries)
+  L1 coefficient : -0.003016  -> favours: ko
+  Mean prob in 'ko' : 0.064245 ± 0.242626
+  Mean prob in 'et' : 0.062262 ± 0.238796
+  Mean diff (b-a)          : -0.001983
+
+------------------------------------------------

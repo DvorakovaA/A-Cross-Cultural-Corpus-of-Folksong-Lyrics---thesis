@@ -1,0 +1,71 @@
+------------------------------
+L1 FEATURE SELECTION: 'uk'  vs  'nl'
+------------------------------
+Top-K requested : 10
+Best C selected : 10.0
+CV AUC (5-fold) : 0.7951
+
+Top 10 discriminative topics:
+------------------------------
+
+Rank 1: topic_22  (22_swing_swing swing_hiccup_attivit)
+  L1 coefficient : +1.718633  -> favours: nl
+  Mean prob in 'uk' : 0.000000 ± 0.000000
+  Mean prob in 'nl' : 0.008944 ± 0.074847
+  Mean diff (b-a)          : +0.008944
+
+Rank 2: topic_17  (17_collective farm_collective_cossack_works)
+  L1 coefficient : -1.310517  -> favours: uk
+  Mean prob in 'uk' : 0.051218 ± 0.175229
+  Mean prob in 'nl' : 0.000801 ± 0.022087
+  Mean diff (b-a)          : -0.050417
+
+Rank 3: topic_13  (13_dry apron_apron_vasyl_hundredth)
+  L1 coefficient : -0.614313  -> favours: uk
+  Mean prob in 'uk' : 0.042084 ± 0.163410
+  Mean prob in 'nl' : 0.002894 ± 0.039204
+  Mean diff (b-a)          : -0.039189
+
+Rank 4: topic_35  (35_eun deun_deun_deun dip_eun)
+  L1 coefficient : +0.606390  -> favours: nl
+  Mean prob in 'uk' : 0.000000 ± 0.000000
+  Mean prob in 'nl' : 0.008773 ± 0.068687
+  Mean diff (b-a)          : +0.008773
+
+Rank 5: topic_28  (28_yes yes_god good_good god_old days)
+  L1 coefficient : +0.601925  -> favours: nl
+  Mean prob in 'uk' : 0.011533 ± 0.083968
+  Mean prob in 'nl' : 0.098745 ± 0.269638
+  Mean diff (b-a)          : +0.087213
+
+Rank 6: topic_7  (7_bright_rejoice_god born_ivan)
+  L1 coefficient : -0.588032  -> favours: uk
+  Mean prob in 'uk' : 0.019350 ± 0.118785
+  Mean prob in 'nl' : 0.000275 ± 0.009001
+  Mean diff (b-a)          : -0.019076
+
+Rank 7: topic_27  (27_ford_little shoes_god grant_mother gave)
+  L1 coefficient : -0.361388  -> favours: uk
+  Mean prob in 'uk' : 0.081891 ± 0.223368
+  Mean prob in 'nl' : 0.023857 ± 0.121019
+  Mean diff (b-a)          : -0.058035
+
+Rank 8: topic_24  (24_evening holy_holy evening_sieve_generous evening)
+  L1 coefficient : -0.349815  -> favours: uk
+  Mean prob in 'uk' : 0.085765 ± 0.224431
+  Mean prob in 'nl' : 0.028152 ± 0.112724
+  Mean diff (b-a)          : -0.057613
+
+Rank 9: topic_29  (29_heaps_weddings_stain_irons)
+  L1 coefficient : +0.334882  -> favours: nl
+  Mean prob in 'uk' : 0.004893 ± 0.049210
+  Mean prob in 'nl' : 0.024288 ± 0.129687
+  Mean diff (b-a)          : +0.019394
+
+Rank 10: topic_14  (14_reapers_wreath_vodka_bacchus)
+  L1 coefficient : -0.294903  -> favours: uk
+  Mean prob in 'uk' : 0.020881 ± 0.118653
+  Mean prob in 'nl' : 0.002150 ± 0.038154
+  Mean diff (b-a)          : -0.018731
+
+------------------------------------------------

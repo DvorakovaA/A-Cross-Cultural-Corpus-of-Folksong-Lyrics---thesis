@@ -1,0 +1,71 @@
+------------------------------
+L1 FEATURE SELECTION: 'ko'  vs  'nl'
+------------------------------
+Top-K requested : 10
+Best C selected : 0.5
+CV AUC (5-fold) : 0.7486
+
+Top 10 discriminative topics:
+------------------------------
+
+Rank 1: topic_34  (34_seok_barley_glutinous_song learned)
+  L1 coefficient : -0.807789  -> favours: ko
+  Mean prob in 'ko' : 0.067611 ± 0.222232
+  Mean prob in 'nl' : 0.004111 ± 0.051329
+  Mean diff (b-a)          : -0.063500
+
+Rank 2: topic_32  (32_mourner_song loom_maiden sings_bending)
+  L1 coefficient : -0.791817  -> favours: ko
+  Mean prob in 'ko' : 0.016188 ± 0.109924
+  Mean prob in 'nl' : 0.000158 ± 0.008085
+  Mean diff (b-a)          : -0.016029
+
+Rank 3: topic_8  ()
+  L1 coefficient : +0.442233  -> favours: nl
+  Mean prob in 'ko' : 0.000000 ± 0.000000
+  Mean prob in 'nl' : 0.000783 ± 0.006709
+  Mean diff (b-a)          : +0.000783
+
+Rank 4: topic_28  (28_yes yes_god good_good god_old days)
+  L1 coefficient : +0.418266  -> favours: nl
+  Mean prob in 'ko' : 0.015899 ± 0.109023
+  Mean prob in 'nl' : 0.098745 ± 0.269638
+  Mean diff (b-a)          : +0.082846
+
+Rank 5: topic_21  (21_lullaby lullaby_lullaby_seedbed_sleeping)
+  L1 coefficient : -0.412904  -> favours: ko
+  Mean prob in 'ko' : 0.053819 ± 0.207367
+  Mean prob in 'nl' : 0.007585 ± 0.070600
+  Mean diff (b-a)          : -0.046234
+
+Rank 6: topic_30  (30_ho ho_beads_hurry walk_ho)
+  L1 coefficient : -0.379172  -> favours: ko
+  Mean prob in 'ko' : 0.041498 ± 0.175509
+  Mean prob in 'nl' : 0.004741 ± 0.060902
+  Mean diff (b-a)          : -0.036757
+
+Rank 7: topic_35  (35_eun deun_deun_deun dip_eun)
+  L1 coefficient : +0.341924  -> favours: nl
+  Mean prob in 'ko' : 0.000000 ± 0.000000
+  Mean prob in 'nl' : 0.008773 ± 0.068687
+  Mean diff (b-a)          : +0.008773
+
+Rank 8: topic_31  (31_nonsense_insist_hit_thump)
+  L1 coefficient : -0.296176  -> favours: ko
+  Mean prob in 'ko' : 0.095961 ± 0.268078
+  Mean prob in 'nl' : 0.033729 ± 0.157838
+  Mean diff (b-a)          : -0.062232
+
+Rank 9: topic_12  (12_vat_manners_monsieur_little fool)
+  L1 coefficient : +0.269667  -> favours: nl
+  Mean prob in 'ko' : 0.000437 ± 0.020153
+  Mean prob in 'nl' : 0.014897 ± 0.115063
+  Mean diff (b-a)          : +0.014460
+
+Rank 10: topic_18  (18_early sunday_happiness health_twig_grant god)
+  L1 coefficient : +0.219737  -> favours: nl
+  Mean prob in 'ko' : 0.029067 ± 0.149842
+  Mean prob in 'nl' : 0.073399 ± 0.225690
+  Mean diff (b-a)          : +0.044332
+
+------------------------------------------------

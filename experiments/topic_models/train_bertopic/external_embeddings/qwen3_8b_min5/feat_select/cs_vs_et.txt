@@ -1,0 +1,71 @@
+------------------------------
+L1 FEATURE SELECTION: 'cs'  vs  'et'
+------------------------------
+Top-K requested : 10
+Best C selected : 0.05
+CV AUC (5-fold) : 0.7610
+
+Top 10 discriminative topics:
+------------------------------
+
+Rank 1: topic_62  (62_herd_heaps_salmon_agree)
+  L1 coefficient : +0.470860  -> favours: et
+  Mean prob in 'cs' : 0.007001 ± 0.070035
+  Mean prob in 'et' : 0.052082 ± 0.186896
+  Mean diff (b-a)          : +0.045081
+
+Rank 2: topic_26  (26_apple trees_sausage_wages_redeem snowfall)
+  L1 coefficient : +0.416677  -> favours: et
+  Mean prob in 'cs' : 0.000000 ± 0.000000
+  Mean prob in 'et' : 0.009575 ± 0.070621
+  Mean diff (b-a)          : +0.009575
+
+Rank 3: topic_39  (39_script_lake_lake young_went rich)
+  L1 coefficient : +0.338000  -> favours: et
+  Mean prob in 'cs' : 0.001652 ± 0.030519
+  Mean prob in 'et' : 0.022096 ± 0.103850
+  Mean diff (b-a)          : +0.020444
+
+Rank 4: topic_16  (16_golden spruce_planks_elegant_lake)
+  L1 coefficient : +0.316262  -> favours: et
+  Mean prob in 'cs' : 0.000000 ± 0.000000
+  Mean prob in 'et' : 0.004749 ± 0.033211
+  Mean diff (b-a)          : +0.004749
+
+Rank 5: topic_79  (79_broth_end little_row fields_lets reduce)
+  L1 coefficient : +0.312959  -> favours: et
+  Mean prob in 'cs' : 0.011623 ± 0.092574
+  Mean prob in 'et' : 0.045394 ± 0.163479
+  Mean diff (b-a)          : +0.033771
+
+Rank 6: topic_8  ()
+  L1 coefficient : +0.297281  -> favours: et
+  Mean prob in 'cs' : 0.000073 ± 0.002445
+  Mean prob in 'et' : 0.003568 ± 0.020909
+  Mean diff (b-a)          : +0.003496
+
+Rank 7: topic_27  (27_parish troubled_rise chair_poor parish_look poor)
+  L1 coefficient : +0.275514  -> favours: et
+  Mean prob in 'cs' : 0.001902 ± 0.037614
+  Mean prob in 'et' : 0.021665 ± 0.099878
+  Mean diff (b-a)          : +0.019763
+
+Rank 8: topic_72  (72_left little_stayed_owners_bundles straw)
+  L1 coefficient : +0.250830  -> favours: et
+  Mean prob in 'cs' : 0.008919 ± 0.070142
+  Mean prob in 'et' : 0.030945 ± 0.131718
+  Mean diff (b-a)          : +0.022026
+
+Rank 9: topic_63  (63_old grandfather_sickle sharp_old grandmother_wedding field)
+  L1 coefficient : +0.242625  -> favours: et
+  Mean prob in 'cs' : 0.006737 ± 0.069466
+  Mean prob in 'et' : 0.030001 ± 0.130042
+  Mean diff (b-a)          : +0.023264
+
+Rank 10: topic_15  (15_slave_parish_better ones_lumps)
+  L1 coefficient : +0.232585  -> favours: et
+  Mean prob in 'cs' : 0.000000 ± 0.000000
+  Mean prob in 'et' : 0.004417 ± 0.042352
+  Mean diff (b-a)          : +0.004417
+
+------------------------------------------------

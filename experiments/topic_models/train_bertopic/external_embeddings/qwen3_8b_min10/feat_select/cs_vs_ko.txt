@@ -1,0 +1,71 @@
+------------------------------
+L1 FEATURE SELECTION: 'cs'  vs  'ko'
+------------------------------
+Top-K requested : 10
+Best C selected : 0.5
+CV AUC (5-fold) : 0.6903
+
+Top 10 discriminative topics:
+------------------------------
+
+Rank 1: topic_32  (32_mourner_song loom_maiden sings_bending)
+  L1 coefficient : +1.223526  -> favours: ko
+  Mean prob in 'cs' : 0.000000 ± 0.000000
+  Mean prob in 'ko' : 0.016188 ± 0.109924
+  Mean diff (b-a)          : +0.016188
+
+Rank 2: topic_30  (30_ho ho_beads_hurry walk_ho)
+  L1 coefficient : +0.866967  -> favours: ko
+  Mean prob in 'cs' : 0.000845 ± 0.027564
+  Mean prob in 'ko' : 0.041498 ± 0.175509
+  Mean diff (b-a)          : +0.040654
+
+Rank 3: topic_34  (34_seok_barley_glutinous_song learned)
+  L1 coefficient : +0.777318  -> favours: ko
+  Mean prob in 'cs' : 0.003654 ± 0.051273
+  Mean prob in 'ko' : 0.067611 ± 0.222232
+  Mean diff (b-a)          : +0.063956
+
+Rank 4: topic_33  (33_strokes_crab_candy_deity)
+  L1 coefficient : +0.566619  -> favours: ko
+  Mean prob in 'cs' : 0.000344 ± 0.009573
+  Mean prob in 'ko' : 0.014684 ± 0.094475
+  Mean diff (b-a)          : +0.014339
+
+Rank 5: topic_31  (31_nonsense_insist_hit_thump)
+  L1 coefficient : +0.286031  -> favours: ko
+  Mean prob in 'cs' : 0.038456 ± 0.176949
+  Mean prob in 'ko' : 0.095961 ± 0.268078
+  Mean diff (b-a)          : +0.057505
+
+Rank 6: topic_21  (21_lullaby lullaby_lullaby_seedbed_sleeping)
+  L1 coefficient : +0.244221  -> favours: ko
+  Mean prob in 'cs' : 0.016929 ± 0.121893
+  Mean prob in 'ko' : 0.053819 ± 0.207367
+  Mean diff (b-a)          : +0.036890
+
+Rank 7: topic_16  (16_cucumbers_carol_godfather_shine shine)
+  L1 coefficient : -0.218200  -> favours: cs
+  Mean prob in 'cs' : 0.014796 ± 0.106757
+  Mean prob in 'ko' : 0.001363 ± 0.027659
+  Mean diff (b-a)          : -0.013433
+
+Rank 8: topic_10  (10_comrade_eoya_clover_eya)
+  L1 coefficient : +0.217344  -> favours: ko
+  Mean prob in 'cs' : 0.000499 ± 0.017842
+  Mean prob in 'ko' : 0.007224 ± 0.079174
+  Mean diff (b-a)          : +0.006724
+
+Rank 9: topic_24  (24_evening holy_holy evening_sieve_generous evening)
+  L1 coefficient : -0.183975  -> favours: cs
+  Mean prob in 'cs' : 0.051592 ± 0.202943
+  Mean prob in 'ko' : 0.017077 ± 0.107104
+  Mean diff (b-a)          : -0.034515
+
+Rank 10: topic_18  (18_early sunday_happiness health_twig_grant god)
+  L1 coefficient : -0.160986  -> favours: cs
+  Mean prob in 'cs' : 0.068862 ± 0.232551
+  Mean prob in 'ko' : 0.029067 ± 0.149842
+  Mean diff (b-a)          : -0.039795
+
+------------------------------------------------

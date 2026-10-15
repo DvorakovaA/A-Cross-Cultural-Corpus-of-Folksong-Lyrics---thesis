@@ -1,0 +1,71 @@
+------------------------------
+L1 FEATURE SELECTION: 'uk'  vs  'et'
+------------------------------
+Top-K requested : 10
+Best C selected : 1.0
+CV AUC (5-fold) : 0.7793
+
+Top 10 discriminative topics:
+------------------------------
+
+Rank 1: topic_17  (17_collective farm_collective_cossack_works)
+  L1 coefficient : -1.579542  -> favours: uk
+  Mean prob in 'uk' : 0.051218 ± 0.175229
+  Mean prob in 'et' : 0.000270 ± 0.008948
+  Mean diff (b-a)          : -0.050948
+
+Rank 2: topic_29  (29_heaps_weddings_stain_irons)
+  L1 coefficient : +0.500719  -> favours: et
+  Mean prob in 'uk' : 0.004893 ± 0.049210
+  Mean prob in 'et' : 0.054185 ± 0.207296
+  Mean diff (b-a)          : +0.049292
+
+Rank 3: topic_9  (9_collective farm_collective_upset_god grant)
+  L1 coefficient : -0.439400  -> favours: uk
+  Mean prob in 'uk' : 0.012124 ± 0.064002
+  Mean prob in 'et' : 0.000420 ± 0.011618
+  Mean diff (b-a)          : -0.011704
+
+Rank 4: topic_18  (18_early sunday_happiness health_twig_grant god)
+  L1 coefficient : -0.370038  -> favours: uk
+  Mean prob in 'uk' : 0.102136 ± 0.237327
+  Mean prob in 'et' : 0.025548 ± 0.143292
+  Mean diff (b-a)          : -0.076588
+
+Rank 5: topic_37  (37_needed_sink_sled_sheaves)
+  L1 coefficient : +0.348185  -> favours: et
+  Mean prob in 'uk' : 0.006734 ± 0.069112
+  Mean prob in 'et' : 0.050584 ± 0.192913
+  Mean diff (b-a)          : +0.043849
+
+Rank 6: topic_27  (27_ford_little shoes_god grant_mother gave)
+  L1 coefficient : -0.312570  -> favours: uk
+  Mean prob in 'uk' : 0.081891 ± 0.223368
+  Mean prob in 'et' : 0.026639 ± 0.142112
+  Mean diff (b-a)          : -0.055252
+
+Rank 7: topic_36  (36_generous evening_generous_evening_evening good)
+  L1 coefficient : -0.307176  -> favours: uk
+  Mean prob in 'uk' : 0.062037 ± 0.175201
+  Mean prob in 'et' : 0.016862 ± 0.107770
+  Mean diff (b-a)          : -0.045176
+
+Rank 8: topic_26  (26_kitty_sleep child_drowsiness_praise lord)
+  L1 coefficient : -0.248434  -> favours: uk
+  Mean prob in 'uk' : 0.027252 ± 0.149932
+  Mean prob in 'et' : 0.004958 ± 0.066030
+  Mean diff (b-a)          : -0.022295
+
+Rank 9: topic_14  (14_reapers_wreath_vodka_bacchus)
+  L1 coefficient : -0.242827  -> favours: uk
+  Mean prob in 'uk' : 0.020881 ± 0.118653
+  Mean prob in 'et' : 0.003325 ± 0.055752
+  Mean diff (b-a)          : -0.017557
+
+Rank 10: topic_13  (13_dry apron_apron_vasyl_hundredth)
+  L1 coefficient : -0.242699  -> favours: uk
+  Mean prob in 'uk' : 0.042084 ± 0.163410
+  Mean prob in 'et' : 0.014529 ± 0.107271
+  Mean diff (b-a)          : -0.027555
+
+------------------------------------------------

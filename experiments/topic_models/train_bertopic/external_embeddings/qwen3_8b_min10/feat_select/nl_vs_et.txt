@@ -1,0 +1,71 @@
+------------------------------
+L1 FEATURE SELECTION: 'nl'  vs  'et'
+------------------------------
+Top-K requested : 10
+Best C selected : 0.1
+CV AUC (5-fold) : 0.7278
+
+Top 10 discriminative topics:
+------------------------------
+
+Rank 1: topic_28  (28_yes yes_god good_good god_old days)
+  L1 coefficient : -0.698896  -> favours: nl
+  Mean prob in 'nl' : 0.098745 ± 0.269638
+  Mean prob in 'et' : 0.007450 ± 0.073982
+  Mean diff (b-a)          : -0.091296
+
+Rank 2: topic_37  (37_needed_sink_sled_sheaves)
+  L1 coefficient : +0.384546  -> favours: et
+  Mean prob in 'nl' : 0.005859 ± 0.066875
+  Mean prob in 'et' : 0.050584 ± 0.192913
+  Mean diff (b-a)          : +0.044724
+
+Rank 3: topic_8  ()
+  L1 coefficient : -0.319680  -> favours: nl
+  Mean prob in 'nl' : 0.000783 ± 0.006709
+  Mean prob in 'et' : 0.000000 ± 0.000000
+  Mean diff (b-a)          : -0.000783
+
+Rank 4: topic_35  (35_eun deun_deun_deun dip_eun)
+  L1 coefficient : -0.306452  -> favours: nl
+  Mean prob in 'nl' : 0.008773 ± 0.068687
+  Mean prob in 'et' : 0.000000 ± 0.000000
+  Mean diff (b-a)          : -0.008773
+
+Rank 5: topic_25  (25_heels_crossshaped_hat_end little)
+  L1 coefficient : +0.268459  -> favours: et
+  Mean prob in 'nl' : 0.006407 ± 0.071326
+  Mean prob in 'et' : 0.038883 ± 0.170291
+  Mean diff (b-a)          : +0.032476
+
+Rank 6: topic_18  (18_early sunday_happiness health_twig_grant god)
+  L1 coefficient : -0.254033  -> favours: nl
+  Mean prob in 'nl' : 0.073399 ± 0.225690
+  Mean prob in 'et' : 0.025548 ± 0.143292
+  Mean diff (b-a)          : -0.047851
+
+Rank 7: topic_24  (24_evening holy_holy evening_sieve_generous evening)
+  L1 coefficient : +0.249129  -> favours: et
+  Mean prob in 'nl' : 0.028152 ± 0.112724
+  Mean prob in 'et' : 0.061129 ± 0.211942
+  Mean diff (b-a)          : +0.032977
+
+Rank 8: topic_36  (36_generous evening_generous_evening_evening good)
+  L1 coefficient : -0.228836  -> favours: nl
+  Mean prob in 'nl' : 0.037176 ± 0.140608
+  Mean prob in 'et' : 0.016862 ± 0.107770
+  Mean diff (b-a)          : -0.020314
+
+Rank 9: topic_34  (34_seok_barley_glutinous_song learned)
+  L1 coefficient : +0.181704  -> favours: et
+  Mean prob in 'nl' : 0.004111 ± 0.051329
+  Mean prob in 'et' : 0.017495 ± 0.118120
+  Mean diff (b-a)          : +0.013384
+
+Rank 10: topic_26  (26_kitty_sleep child_drowsiness_praise lord)
+  L1 coefficient : -0.181062  -> favours: nl
+  Mean prob in 'nl' : 0.022829 ± 0.132390
+  Mean prob in 'et' : 0.004958 ± 0.066030
+  Mean diff (b-a)          : -0.017872
+
+------------------------------------------------
