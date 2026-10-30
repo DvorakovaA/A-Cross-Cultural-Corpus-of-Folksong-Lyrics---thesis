@@ -1,0 +1,10 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+RBF_SVM,entertainment,106,0.1795,0.066,0.0966,0.934,home_and_childhood,0.7264
+RBF_SVM,work,80,1.0,0.0625,0.1176,0.9375,home_and_childhood,0.5875
+RBF_SVM,worry,41,0.2105,0.0976,0.1333,0.9024,home_and_childhood,0.7317
+RBF_SVM,home_and_childhood,42,0.076,0.7857,0.1387,0.2143,entertainment,0.0476
+RBF_SVM,songs about social relationships,80,0.7778,0.0875,0.1573,0.9125,home_and_childhood,0.725
+RBF_SVM,youth_life,143,0.5357,0.1049,0.1754,0.8951,home_and_childhood,0.6364
+RBF_SVM,children,36,0.1892,0.1944,0.1918,0.8056,home_and_childhood,0.8056
+RBF_SVM,marriage,46,0.75,0.1304,0.2222,0.8696,home_and_childhood,0.5652
+RBF_SVM,nature,76,0.2676,0.25,0.2585,0.75,home_and_childhood,0.5658

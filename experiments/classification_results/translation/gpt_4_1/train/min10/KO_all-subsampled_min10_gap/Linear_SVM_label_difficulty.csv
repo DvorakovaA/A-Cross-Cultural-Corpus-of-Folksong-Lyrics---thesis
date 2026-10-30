@@ -1,0 +1,11 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+Linear_SVM,Entertainment_children,34,0.4,0.0588,0.1026,0.9412,Work_construction,0.5588
+Linear_SVM,Work_fishing,48,0.2778,0.1042,0.1515,0.8958,Work_construction,0.5208
+Linear_SVM,Work_construction,69,0.1667,0.5797,0.2589,0.4203,Work_agricultural,0.1159
+Linear_SVM,Work_agricultural,109,0.5946,0.4037,0.4809,0.5963,Work_construction,0.3303
+Linear_SVM,Lament_eosayong,43,0.5227,0.5349,0.5287,0.4651,Work_construction,0.2558
+Linear_SVM,etc_minstrel,37,0.6207,0.4865,0.5455,0.5135,Work_construction,0.2973
+Linear_SVM,Work_artisan,109,0.7606,0.4954,0.6,0.5046,Work_construction,0.2844
+Linear_SVM,Lament_lament,87,0.6456,0.5862,0.6145,0.4138,Work_construction,0.1954
+Linear_SVM,Ritual_funeral,88,0.7353,0.5682,0.641,0.4318,Work_construction,0.3068
+Linear_SVM,Lullaby_lullaby,100,0.7292,0.7,0.7143,0.3,Work_construction,0.23
