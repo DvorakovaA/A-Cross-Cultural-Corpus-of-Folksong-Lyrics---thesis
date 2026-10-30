@@ -1,0 +1,97 @@
+Model: RBF_SVM
+
+Fold 1:
+               precision    recall  f1-score   support
+
+anti-marriage       0.36      0.50      0.42        10
+     birthday       0.04      0.27      0.07        15
+     children       0.73      0.40      0.52       298
+    christmas       0.30      0.60      0.40         5
+      lullaby       0.12      0.57      0.20         7
+  st_nicholas       0.69      0.82      0.75        11
+      wedding       0.46      0.23      0.30        97
+         work       0.17      0.41      0.24        27
+     work_sea       0.50      0.38      0.43        37
+ work_soldier       0.18      0.56      0.27        16
+
+     accuracy                           0.38       523
+    macro avg       0.35      0.47      0.36       523
+ weighted avg       0.58      0.38      0.44       523
+
+
+Fold 2:
+               precision    recall  f1-score   support
+
+anti-marriage       0.19      0.40      0.26        10
+     birthday       0.08      0.29      0.12        14
+     children       0.81      0.45      0.58       299
+    christmas       0.15      0.40      0.22         5
+      lullaby       0.11      0.57      0.18         7
+  st_nicholas       0.62      1.00      0.77        10
+      wedding       0.50      0.26      0.34        97
+         work       0.23      0.59      0.33        27
+     work_sea       0.22      0.42      0.29        38
+ work_soldier       0.18      0.31      0.23        16
+
+     accuracy                           0.42       523
+    macro avg       0.31      0.47      0.33       523
+ weighted avg       0.61      0.42      0.47       523
+
+
+Fold 3:
+               precision    recall  f1-score   support
+
+anti-marriage       0.20      0.44      0.28         9
+     birthday       0.07      0.33      0.11        15
+     children       0.81      0.44      0.57       298
+    christmas       0.22      0.50      0.31         4
+      lullaby       0.15      0.25      0.19         8
+  st_nicholas       0.69      0.90      0.78        10
+      wedding       0.47      0.28      0.35        98
+         work       0.13      0.56      0.21        27
+     work_sea       0.44      0.32      0.37        38
+ work_soldier       0.16      0.33      0.21        15
+
+     accuracy                           0.41       522
+    macro avg       0.34      0.44      0.34       522
+ weighted avg       0.62      0.41      0.47       522
+
+
+Fold 4:
+               precision    recall  f1-score   support
+
+anti-marriage       0.20      0.56      0.29         9
+     birthday       0.05      0.33      0.09        15
+     children       0.76      0.35      0.48       298
+    christmas       0.00      0.00      0.00         5
+      lullaby       0.29      0.88      0.44         8
+  st_nicholas       0.62      1.00      0.77        10
+      wedding       0.42      0.34      0.37        98
+         work       0.13      0.23      0.17        26
+     work_sea       0.35      0.47      0.40        38
+ work_soldier       0.21      0.40      0.27        15
+
+     accuracy                           0.37       522
+    macro avg       0.30      0.46      0.33       522
+ weighted avg       0.57      0.37      0.42       522
+
+
+Fold 5:
+               precision    recall  f1-score   support
+
+anti-marriage       0.10      0.22      0.14         9
+     birthday       0.10      0.33      0.16        15
+     children       0.79      0.42      0.55       298
+    christmas       0.08      0.20      0.12         5
+      lullaby       0.16      0.50      0.24         8
+  st_nicholas       0.60      0.90      0.72        10
+      wedding       0.51      0.29      0.37        97
+         work       0.15      0.30      0.20        27
+     work_sea       0.19      0.57      0.28        37
+ work_soldier       0.15      0.25      0.19        16
+
+     accuracy                           0.40       522
+    macro avg       0.28      0.40      0.30       522
+ weighted avg       0.59      0.40      0.44       522
+
+

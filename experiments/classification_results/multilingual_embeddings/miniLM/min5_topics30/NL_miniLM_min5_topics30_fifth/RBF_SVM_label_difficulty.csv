@@ -1,0 +1,11 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+RBF_SVM,children,298,0.0,0.0,0.0,1.0,anti-marriage,0.6812
+RBF_SVM,lullaby,8,0.0,0.0,0.0,1.0,anti-marriage,0.75
+RBF_SVM,wedding,97,0.0,0.0,0.0,1.0,anti-marriage,0.7113
+RBF_SVM,work_soldier,16,0.0,0.0,0.0,1.0,anti-marriage,0.4375
+RBF_SVM,anti-marriage,9,0.0152,0.5556,0.0295,0.4444,work_sea,0.2222
+RBF_SVM,christmas,5,0.0588,0.4,0.1026,0.6,anti-marriage,0.4
+RBF_SVM,work_sea,37,0.2,0.0811,0.1154,0.9189,anti-marriage,0.4595
+RBF_SVM,birthday,15,0.1034,0.2,0.1364,0.8,anti-marriage,0.5333
+RBF_SVM,work,27,0.0984,0.2222,0.1364,0.7778,anti-marriage,0.3704
+RBF_SVM,st_nicholas,10,0.1304,0.6,0.2143,0.4,anti-marriage,0.3

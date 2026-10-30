@@ -1,0 +1,11 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+RBF_SVM,young_people,159,0.25,0.0126,0.024,0.9874,calendar,0.2453
+RBF_SVM,carols,10,0.0263,0.2,0.0465,0.8,calendar,0.3
+RBF_SVM,military,16,0.0366,0.1875,0.0612,0.8125,calendar,0.3125
+RBF_SVM,wedding,42,0.0769,0.0714,0.0741,0.9286,social_life,0.2143
+RBF_SVM,children,18,0.0714,0.1667,0.1,0.8333,carols,0.2778
+RBF_SVM,love,73,0.2059,0.0959,0.1308,0.9041,military,0.2466
+RBF_SVM,social_life,25,0.1017,0.24,0.1429,0.76,calendar,0.24
+RBF_SVM,business_and_civil,77,0.2424,0.1039,0.1455,0.8961,calendar,0.4156
+RBF_SVM,entertainment_and_dance,83,0.2941,0.1205,0.1709,0.8795,calendar,0.3253
+RBF_SVM,calendar,62,0.1709,0.4355,0.2455,0.5645,carols,0.129

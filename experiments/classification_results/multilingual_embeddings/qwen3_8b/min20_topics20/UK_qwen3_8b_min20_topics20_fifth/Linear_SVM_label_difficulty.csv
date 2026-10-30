@@ -1,0 +1,11 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+Linear_SVM,Calendar-ritual_spring,55,0.0,0.0,0.0,1.0,Family-ritual_wedding,0.9636
+Linear_SVM,Non-ritual_Romance,5,0.0,0.0,0.0,1.0,Family-ritual_wedding,1.0
+Linear_SVM,Non-ritual_Lyrical,31,0.0,0.0,0.0,1.0,Family-ritual_wedding,0.8387
+Linear_SVM,Non-ritual_Humorous,16,0.0,0.0,0.0,1.0,Family-ritual_wedding,0.9375
+Linear_SVM,children_children,8,0.0,0.0,0.0,1.0,Family-ritual_wedding,1.0
+Linear_SVM,Non-ritual_Social-domestic,8,0.0,0.0,0.0,1.0,Family-ritual_wedding,1.0
+Linear_SVM,Non-ritual_Ballad,60,0.5,0.0333,0.0625,0.9667,Family-ritual_wedding,0.8333
+Linear_SVM,Calendar-ritual_Summer,38,0.3333,0.0526,0.0909,0.9474,Family-ritual_wedding,0.9211
+Linear_SVM,Calendar-ritual_winter,44,0.3158,0.1364,0.1905,0.8636,Family-ritual_wedding,0.8182
+Linear_SVM,Family-ritual_wedding,52,0.1777,0.9808,0.3009,0.0192,Calendar-ritual_winter,0.0192

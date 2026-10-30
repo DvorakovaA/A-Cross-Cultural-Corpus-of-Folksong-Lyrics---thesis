@@ -1,0 +1,97 @@
+Model: Linear_SVM
+
+Fold 1:
+                        precision    recall  f1-score   support
+
+Entertainment_children       0.00      0.00      0.00        46
+       Lament_eosayong       0.00      0.00      0.00        58
+         Lament_lament       0.07      0.03      0.04       115
+       Lullaby_lullaby       0.20      0.63      0.31       134
+        Ritual_funeral       0.12      0.23      0.15       117
+     Work_agricultural       0.63      0.37      0.46       732
+          Work_artisan       0.17      0.43      0.24       145
+     Work_construction       0.12      0.02      0.04        93
+          Work_fishing       0.21      0.13      0.16        63
+          etc_minstrel       0.00      0.00      0.00        49
+
+              accuracy                           0.29      1552
+             macro avg       0.15      0.18      0.14      1552
+          weighted avg       0.36      0.29      0.29      1552
+
+
+Fold 2:
+                        precision    recall  f1-score   support
+
+Entertainment_children       0.00      0.00      0.00        46
+       Lament_eosayong       0.00      0.00      0.00        58
+         Lament_lament       0.04      0.01      0.01       115
+       Lullaby_lullaby       0.19      0.63      0.30       134
+        Ritual_funeral       0.07      0.12      0.09       117
+     Work_agricultural       0.63      0.40      0.49       732
+          Work_artisan       0.20      0.51      0.29       145
+     Work_construction       0.00      0.00      0.00        93
+          Work_fishing       0.14      0.10      0.11        63
+          etc_minstrel       0.00      0.00      0.00        49
+
+              accuracy                           0.31      1552
+             macro avg       0.13      0.18      0.13      1552
+          weighted avg       0.35      0.31      0.30      1552
+
+
+Fold 3:
+                        precision    recall  f1-score   support
+
+Entertainment_children       0.00      0.00      0.00        45
+       Lament_eosayong       0.00      0.00      0.00        59
+         Lament_lament       0.20      0.03      0.05       116
+       Lullaby_lullaby       0.18      0.57      0.27       134
+        Ritual_funeral       0.24      0.09      0.13       117
+     Work_agricultural       0.63      0.55      0.59       732
+          Work_artisan       0.19      0.48      0.27       145
+     Work_construction       0.07      0.01      0.02        92
+          Work_fishing       0.21      0.14      0.17        63
+          etc_minstrel       0.00      0.00      0.00        49
+
+              accuracy                           0.37      1552
+             macro avg       0.17      0.19      0.15      1552
+          weighted avg       0.38      0.37      0.35      1552
+
+
+Fold 4:
+                        precision    recall  f1-score   support
+
+Entertainment_children       0.00      0.00      0.00        45
+       Lament_eosayong       0.00      0.00      0.00        59
+         Lament_lament       0.21      0.06      0.09       116
+       Lullaby_lullaby       0.20      0.67      0.31       133
+        Ritual_funeral       0.16      0.05      0.08       117
+     Work_agricultural       0.64      0.58      0.61       732
+          Work_artisan       0.18      0.40      0.25       145
+     Work_construction       0.17      0.02      0.04        92
+          Work_fishing       0.16      0.11      0.13        64
+          etc_minstrel       0.00      0.00      0.00        49
+
+              accuracy                           0.38      1552
+             macro avg       0.17      0.19      0.15      1552
+          weighted avg       0.38      0.38      0.36      1552
+
+
+Fold 5:
+                        precision    recall  f1-score   support
+
+Entertainment_children       0.00      0.00      0.00        45
+       Lament_eosayong       0.00      0.00      0.00        58
+         Lament_lament       0.18      0.02      0.03       116
+       Lullaby_lullaby       0.19      0.59      0.29       133
+        Ritual_funeral       0.10      0.22      0.14       118
+     Work_agricultural       0.65      0.37      0.47       732
+          Work_artisan       0.18      0.46      0.26       145
+     Work_construction       0.22      0.07      0.10        92
+          Work_fishing       0.16      0.16      0.16        64
+          etc_minstrel       0.00      0.00      0.00        49
+
+              accuracy                           0.29      1552
+             macro avg       0.17      0.19      0.14      1552
+          weighted avg       0.38      0.29      0.30      1552
+
+

@@ -1,0 +1,97 @@
+Model: RBF_SVM
+
+Fold 1:
+                            precision    recall  f1-score   support
+
+    Calendar-ritual_Summer       0.45      0.37      0.41        38
+    Calendar-ritual_spring       0.56      0.35      0.43        55
+    Calendar-ritual_winter       0.50      0.53      0.52        43
+     Family-ritual_wedding       0.62      0.39      0.48        51
+         Non-ritual_Ballad       0.50      0.58      0.54        60
+       Non-ritual_Humorous       0.21      0.41      0.28        17
+        Non-ritual_Lyrical       0.30      0.23      0.26        31
+        Non-ritual_Romance       0.08      0.17      0.11         6
+Non-ritual_Social-domestic       0.11      0.29      0.15         7
+         children_children       0.18      0.33      0.23         9
+
+                  accuracy                           0.41       317
+                 macro avg       0.35      0.36      0.34       317
+              weighted avg       0.46      0.41      0.42       317
+
+
+Fold 2:
+                            precision    recall  f1-score   support
+
+    Calendar-ritual_Summer       0.51      0.58      0.54        38
+    Calendar-ritual_spring       0.74      0.25      0.38        55
+    Calendar-ritual_winter       0.70      0.53      0.61        43
+     Family-ritual_wedding       0.29      0.24      0.26        51
+         Non-ritual_Ballad       0.43      0.50      0.47        60
+       Non-ritual_Humorous       0.21      0.29      0.24        17
+        Non-ritual_Lyrical       0.20      0.26      0.23        31
+        Non-ritual_Romance       0.00      0.00      0.00         6
+Non-ritual_Social-domestic       0.00      0.00      0.00         7
+         children_children       0.06      0.11      0.07         9
+
+                  accuracy                           0.36       317
+                 macro avg       0.31      0.28      0.28       317
+              weighted avg       0.45      0.36      0.38       317
+
+
+Fold 3:
+                            precision    recall  f1-score   support
+
+    Calendar-ritual_Summer       0.50      0.46      0.48        39
+    Calendar-ritual_spring       0.51      0.33      0.40        54
+    Calendar-ritual_winter       0.62      0.72      0.67        43
+     Family-ritual_wedding       0.42      0.20      0.27        51
+         Non-ritual_Ballad       0.54      0.75      0.63        60
+       Non-ritual_Humorous       0.10      0.18      0.13        17
+        Non-ritual_Lyrical       0.28      0.23      0.25        31
+        Non-ritual_Romance       0.12      0.20      0.15         5
+Non-ritual_Social-domestic       0.20      0.25      0.22         8
+         children_children       0.24      0.44      0.31         9
+
+                  accuracy                           0.44       317
+                 macro avg       0.35      0.38      0.35       317
+              weighted avg       0.45      0.44      0.43       317
+
+
+Fold 4:
+                            precision    recall  f1-score   support
+
+    Calendar-ritual_Summer       0.42      0.37      0.39        38
+    Calendar-ritual_spring       0.50      0.35      0.41        55
+    Calendar-ritual_winter       0.62      0.77      0.69        44
+     Family-ritual_wedding       0.61      0.42      0.50        52
+         Non-ritual_Ballad       0.49      0.62      0.55        60
+       Non-ritual_Humorous       0.11      0.19      0.14        16
+        Non-ritual_Lyrical       0.40      0.19      0.26        31
+        Non-ritual_Romance       0.00      0.00      0.00         5
+Non-ritual_Social-domestic       0.13      0.25      0.17         8
+         children_children       0.00      0.00      0.00         8
+
+                  accuracy                           0.43       317
+                 macro avg       0.33      0.32      0.31       317
+              weighted avg       0.46      0.43      0.44       317
+
+
+Fold 5:
+                            precision    recall  f1-score   support
+
+    Calendar-ritual_Summer       0.38      0.34      0.36        38
+    Calendar-ritual_spring       0.50      0.27      0.35        55
+    Calendar-ritual_winter       0.67      0.68      0.67        44
+     Family-ritual_wedding       0.54      0.40      0.46        52
+         Non-ritual_Ballad       0.46      0.50      0.48        60
+       Non-ritual_Humorous       0.22      0.38      0.28        16
+        Non-ritual_Lyrical       0.35      0.39      0.37        31
+        Non-ritual_Romance       0.20      0.40      0.27         5
+Non-ritual_Social-domestic       0.08      0.12      0.10         8
+         children_children       0.24      0.62      0.34         8
+
+                  accuracy                           0.43       317
+                 macro avg       0.36      0.41      0.37       317
+              weighted avg       0.46      0.43      0.43       317
+
+

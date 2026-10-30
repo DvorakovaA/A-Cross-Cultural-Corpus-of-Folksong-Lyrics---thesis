@@ -1,0 +1,11 @@
+model,label,support,precision,recall,f1,confusion_rate,top_confused_with,top_confused_pct
+RBF_SVM,Non-ritual_Romance,5,0.0,0.0,0.0,1.0,Non-ritual_Ballad,0.4
+RBF_SVM,Non-ritual_Social-domestic,8,0.0,0.0,0.0,1.0,Non-ritual_Lyrical,0.375
+RBF_SVM,Non-ritual_Lyrical,31,0.1379,0.129,0.1333,0.871,Family-ritual_wedding,0.3548
+RBF_SVM,Non-ritual_Humorous,16,0.1667,0.125,0.1429,0.875,Family-ritual_wedding,0.3125
+RBF_SVM,Non-ritual_Ballad,60,0.5,0.1333,0.2105,0.8667,Family-ritual_wedding,0.2667
+RBF_SVM,Calendar-ritual_Summer,38,0.3548,0.2895,0.3188,0.7105,Family-ritual_wedding,0.5
+RBF_SVM,Calendar-ritual_spring,55,0.5882,0.3636,0.4494,0.6364,Calendar-ritual_Summer,0.1273
+RBF_SVM,Family-ritual_wedding,52,0.3571,0.6731,0.4667,0.3269,Calendar-ritual_Summer,0.0769
+RBF_SVM,children_children,8,0.375,0.75,0.5,0.25,Family-ritual_wedding,0.25
+RBF_SVM,Calendar-ritual_winter,44,0.5926,0.7273,0.6531,0.2727,Non-ritual_Ballad,0.0909
