@@ -1,3 +1,0 @@
-model,cv_macro_f1_mean,cv_macro_f1_std,cv_weighted_f1_mean,cv_n_pca_components_mean
-RBF_SVM,0.1053,0.0064,0.083,11.4
-Linear_SVM,0.0984,0.0153,0.1468,11.4
