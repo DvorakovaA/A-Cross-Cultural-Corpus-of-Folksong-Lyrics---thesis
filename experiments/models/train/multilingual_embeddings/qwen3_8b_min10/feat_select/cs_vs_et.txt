@@ -1,0 +1,71 @@
+------------------------------
+L1 FEATURE SELECTION: 'cs'  vs  'et'
+------------------------------
+Top-K requested : 10
+Best C selected : 0.05
+CV AUC (5-fold) : 0.6468
+
+Top 10 discriminative topics:
+------------------------------
+
+Rank 1: topic_37  (37_needed_sink_sled_sheaves)
+  L1 coefficient : +0.463639  -> favours: et
+  Mean prob in 'cs' : 0.004104 ± 0.057275
+  Mean prob in 'et' : 0.050584 ± 0.192913
+  Mean diff (b-a)          : +0.046480
+
+Rank 2: topic_29  (29_heaps_weddings_stain_irons)
+  L1 coefficient : +0.396488  -> favours: et
+  Mean prob in 'cs' : 0.006064 ± 0.074301
+  Mean prob in 'et' : 0.054185 ± 0.207296
+  Mean diff (b-a)          : +0.048122
+
+Rank 3: topic_18  (18_early sunday_happiness health_twig_grant god)
+  L1 coefficient : -0.185993  -> favours: cs
+  Mean prob in 'cs' : 0.068862 ± 0.232551
+  Mean prob in 'et' : 0.025548 ± 0.143292
+  Mean diff (b-a)          : -0.043314
+
+Rank 4: topic_34  (34_seok_barley_glutinous_song learned)
+  L1 coefficient : +0.166935  -> favours: et
+  Mean prob in 'cs' : 0.003654 ± 0.051273
+  Mean prob in 'et' : 0.017495 ± 0.118120
+  Mean diff (b-a)          : +0.013840
+
+Rank 5: topic_9  (9_collective farm_collective_upset_god grant)
+  L1 coefficient : -0.153377  -> favours: cs
+  Mean prob in 'cs' : 0.004942 ± 0.053181
+  Mean prob in 'et' : 0.000420 ± 0.011618
+  Mean diff (b-a)          : -0.004522
+
+Rank 6: topic_25  (25_heels_crossshaped_hat_end little)
+  L1 coefficient : +0.133203  -> favours: et
+  Mean prob in 'cs' : 0.016501 ± 0.120236
+  Mean prob in 'et' : 0.038883 ± 0.170291
+  Mean diff (b-a)          : +0.022383
+
+Rank 7: topic_15  (15_cuckoo_sings_hums_given given)
+  L1 coefficient : +0.121286  -> favours: et
+  Mean prob in 'cs' : 0.007810 ± 0.081688
+  Mean prob in 'et' : 0.020034 ± 0.126784
+  Mean diff (b-a)          : +0.012224
+
+Rank 8: topic_38  (38_crooked dance_downhill_boots_uphill)
+  L1 coefficient : +0.111291  -> favours: et
+  Mean prob in 'cs' : 0.018557 ± 0.111214
+  Mean prob in 'et' : 0.031910 ± 0.144447
+  Mean diff (b-a)          : +0.013353
+
+Rank 9: topic_33  (33_strokes_crab_candy_deity)
+  L1 coefficient : +0.110038  -> favours: et
+  Mean prob in 'cs' : 0.000344 ± 0.009573
+  Mean prob in 'et' : 0.003431 ± 0.046175
+  Mean diff (b-a)          : +0.003086
+
+Rank 10: topic_19  (19_rang_times seven_scythe_thirtyone)
+  L1 coefficient : +0.103280  -> favours: et
+  Mean prob in 'cs' : 0.006815 ± 0.072972
+  Mean prob in 'et' : 0.016640 ± 0.117135
+  Mean diff (b-a)          : +0.009825
+
+------------------------------------------------
